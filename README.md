@@ -15,7 +15,7 @@ A simple, self-hosted personal car fleet manager. Track maintenance, get alerts 
 ![PHP](https://img.shields.io/badge/PHP-8.3-blue)
 ![SQLite](https://img.shields.io/badge/Database-SQLite-003b57)
 
-<img src="screenshot/main_page.png" alt="Antoine & Associés" width="300">
+<img src="screenshot/main_page.png" alt="Main Page" width="900">
 
 ## Features
 
