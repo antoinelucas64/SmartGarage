@@ -1,0 +1,14 @@
+.git
+.github
+.gitignore
+README.md
+LICENSE
+CHANGELOG.md
+docker-compose.yml
+data/
+uploads/
+*.sqlite
+*.sqlite-*
+.DS_Store
+.idea
+.vscode

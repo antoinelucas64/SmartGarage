@@ -1,0 +1,23 @@
+# App data — never commit
+data/
+uploads/
+*.sqlite
+*.sqlite-*
+
+# Local env
+.env
+.env.local
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Docker
+.docker/
+
+# Logs
+*.log

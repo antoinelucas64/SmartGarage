@@ -1,0 +1,13 @@
+services:
+  smart-garage:
+    build: .
+    image: smart-garage:latest
+    container_name: smart-garage
+    restart: unless-stopped
+    ports:
+      - "${SMART_GARAGE_PORT:-8080}:8080"
+    volumes:
+      - ./data:/data
+      - ./uploads:/uploads
+    environment:
+      - APP_DEBUG=0
