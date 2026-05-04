@@ -1,3 +1,10 @@
+<h1 align="center">
+  <br>
+  <a href="https://www.associés.fr"><img src="doc/logo.png" alt="Antoine & Associés" width="300"></a>
+</h1>
+
+
+
 # 🚗 Smart Garage
 
 A simple, self-hosted personal car fleet manager. Track maintenance, get alerts before things are due, store invoices — all in one lightweight PHP + SQLite application.
@@ -7,6 +14,8 @@ A simple, self-hosted personal car fleet manager. Track maintenance, get alerts 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![PHP](https://img.shields.io/badge/PHP-8.3-blue)
 ![SQLite](https://img.shields.io/badge/Database-SQLite-003b57)
+
+<img src="screenshot/main_page.png" alt="Antoine & Associés" width="300">
 
 ## Features
 
@@ -24,7 +33,7 @@ A simple, self-hosted personal car fleet manager. Track maintenance, get alerts 
 
 ```bash
 git clone https://github.com/antoinelucas64/SmartGarage.git
-cd smart-garage
+cd SmartGarage
 docker compose up -d
 ```
 

@@ -28,7 +28,7 @@
     </label>
     <label><?= e(t('record.cost')) ?>
       <input type="text" name="cost" inputmode="decimal"
-             value="<?= e($record['cost'] !== null ? str_replace('.', ',', (string)$record['cost']) : '') ?>">
+             value="<?= e(($record['cost'] ?? null) !== null ? str_replace('.', ',', (string)$record['cost']) : '') ?>">
     </label>
   </div>
 
