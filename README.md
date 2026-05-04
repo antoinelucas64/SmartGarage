@@ -23,7 +23,7 @@ A simple, self-hosted personal car fleet manager. Track maintenance, get alerts 
 ## Quickstart with Docker (recommended)
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/smart-garage.git
+git clone https://github.com/antoinelucas64/SmartGarage.git
 cd smart-garage
 docker compose up -d
 ```
